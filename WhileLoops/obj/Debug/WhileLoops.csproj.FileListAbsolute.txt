@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\bin\Debug\WhileLoops.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\bin\Debug\WhileLoops.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\bin\Debug\WhileLoops.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\obj\Debug\WhileLoops.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\obj\Debug\WhileLoops.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\WhileLoops\WhileLoops\obj\Debug\WhileLoops.pdb
