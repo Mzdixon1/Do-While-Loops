@@ -52,15 +52,84 @@ namespace WhileLoops
             //Ask the user for the class (in school) they would like to add to there GPA Calculation.
             //Ask the user if they have another class they would like to add to there GPA Calculation.
             //Using a DO-While LOOP, repeat the code if the user says "YES"
-            string addClass;
-            do
+
+            //string addClass;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add to your GPA Calculation?");
+            //     addClass = Console.ReadLine().ToLower();
+            //    Console.WriteLine("Do you have another class you would like to add to your GPA Calculation? YES/NO");
+            //}
+            //while (addClass == "Yes");
+
+            //NESTED LOOPS 
+            //Loop inside of another loop. 
+            //The inner loop is executed more times than the outer loop
+            //Real Life Example - Clock
+
+            //Creat a nested loop structure that prints:
+            //1234
+            //1234
+
+            //for(int rows = 1; rows <= 2; rows++)
+            //{
+            //    for(int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            // Print a Triangle
+            //Outer loop will go line by line
+            //The inner lop will go over different elements in the line.
+            //Result:
+            //1
+            //1 2
+            // 1 2 3
+            // 1 2 3 4
+
+
+            //int num, space;
+
+            //while (true)
+            //{
+            //    Console.Write("Enter a number between 1 to 4 : ");
+
+            //    num = Convert.ToInt32(Console.ReadLine());
+
+            //    space = num - 1;
+
+            //    for (int i = 1; i <= num; i++)
+            //    {
+            //        for (space = 1; space <= (num - i); space++)
+            //        {
+            //            Console.Write(" ");
+            //        }
+
+            //        for (int j = 1; j <= i; j++)
+            //        {
+            //            Console.Write(j);
+            //        }
+
+            //        for (int k = (i - 1); k >= 1; k--)
+            //        {
+            //            Console.Write(k);
+            //        }
+
+            //        Console.WriteLine();
+            //    }
+            //}
+
+            Console.WriteLine("How many rows do you want in your triangle?");
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                Console.WriteLine("What class would you like to add to your GPA Calculation?");
-                 addClass = Console.ReadLine();
-                Console.WriteLine("Do you have another class you would like to add to your GPA Calculation? YES/NO");
+                Console.Write(ConsoleColor = "");
+
             }
-            while (addClass == "Yes");
-                   
+            Console.WriteLine();
         }
     }
 }
