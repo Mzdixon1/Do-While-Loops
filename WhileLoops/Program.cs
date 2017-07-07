@@ -188,40 +188,63 @@ namespace WhileLoops
 
             //Create an array of your favorite movies.Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
 
-            String[] faveMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troopers" };
-            foreach (string movie in faveMovies)
+            //String[] faveMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troopers" };
+            //foreach (string movie in faveMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+
+            //    else
+            //    {
+
+            //        Console.WriteLine(movie);
+            //    }
+            //}
+
+
+            // Write a console application that asks the user for an integer. If that integer is evenly divisible by 3, then write “You Won!” If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+
+            // I know I need to ask the user for an integer, and get the input, and save it
+            Console.WriteLine("Please enter an integer (whole number).");
+            int userNum = int.Parse(Console.ReadLine());
+            //"Evenly divisible" is a good indicator fo modulus
+            //We have to check if the input % 3 == 0 we need to write "You Won!"
+            //amd we need to exit the loop
+            //if there input %3 is not equal to 0,  we have to let them know "you lost"1
+            //and ask for another integer.  We repeat this, until they win.
+            while (userNum % 3 != 0)
             {
-                if (movie.StartsWith("A"))
-                {
-                    continue;
-                }
-                else if (movie.StartsWith("E"))
-                {
-                    continue;
-                }
-                else if (movie.StartsWith("I"))
-                {
-                    continue;
-                }
-                else if (movie.StartsWith("O"))
-                {
-                    continue;
-                }
-                else if (movie.StartsWith("U"))
-                {
-                    continue;
-                }
-
-                else
-                {
-
-                    Console.WriteLine(movie);
+                Console.WriteLine("You lost!");
+                Console.WriteLine("Please enter another integer");
+                userNum = int.Parse(Console.ReadLine());
+            }
+                    Console.WriteLine("You won!");
+                  
+                
+                   
                 }
             }
-        }
-    }
-}
 
-        
+        }
+
+            
     
 
