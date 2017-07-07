@@ -170,25 +170,58 @@ namespace WhileLoops
             // Create an array of your favorite movies.Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
             //Write a console application that asks the user for an integer. If that integer is evenly divisible by 3, then write “You Won!” If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
 
-            int multNum = 1;
-            Console.WriteLine("Enter in your first number.");
-            int firstNumber = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter in your second number.");
-            int SecondNumber = int.Parse(Console.ReadLine());
+            //int multNum = 1;
+            //Console.WriteLine("Enter in your first number.");
+            //int firstNumber = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter in your second number.");
+            //int SecondNumber = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= firstNumber; i++)
+            //for (int i = 1; i <= firstNumber; i++)
+            //{
+            //    for (int j = 1; j <= SecondNumber; j++)
+            //    {
+            //        Console.WriteLine(multNum * j + " ");
+
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+
+            //Create an array of your favorite movies.Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
+
+            String[] faveMovies = { "Star Wars", "Anchorman", "Avatar", "Serenity", "Super Troopers" };
+            foreach (string movie in faveMovies)
             {
-                for (int j = 1; j <= SecondNumber; j++)
+                if (movie.StartsWith("A"))
                 {
-                    Console.WriteLine(multNum * j + " ");
-
+                    continue;
                 }
-                multNum += 1;
-                Console.WriteLine();
+                else if (movie.StartsWith("E"))
+                {
+                    continue;
+                }
+                else if (movie.StartsWith("I"))
+                {
+                    continue;
+                }
+                else if (movie.StartsWith("O"))
+                {
+                    continue;
+                }
+                else if (movie.StartsWith("U"))
+                {
+                    continue;
+                }
 
+                else
+                {
+
+                    Console.WriteLine(movie);
+                }
             }
-
-
         }
     }
 }
+
+        
+    
+
